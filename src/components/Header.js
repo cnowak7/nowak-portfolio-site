@@ -9,7 +9,7 @@ export default class Header extends Component {
       visibilityClass: '',
     };
   }
-  toggleMenu = value => {
+  toggleMenu = (value) => {
     this.setState({ openMenu: value });
   };
   handleScroll = () => {
@@ -40,11 +40,17 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
-          </a>
+          <Scroll
+            onClick={(_) => this.toggleMenu(!openMenu)}
+            type="id"
+            element="page-top"
+          >
+            <a className="navbar-brand" href="#page-top">
+              {config.siteTitle}
+            </a>
+          </Scroll>
           <button
-            onClick={_ => this.toggleMenu(!openMenu)}
+            onClick={(_) => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
               openMenu ? '' : 'collapsed'
             }`}
@@ -63,7 +69,7 @@ export default class Header extends Component {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
                   element="about"
                 >
@@ -74,22 +80,23 @@ export default class Header extends Component {
               </li>
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="projects"
+                  element="experience"
+                  offset={-56}
                 >
-                  <a className="nav-link" href="#projects">
-                    Projects
+                  <a className="nav-link" href="#experience">
+                    Experience
                   </a>
                 </Scroll>
               </li>
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
+                  element="contact"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </Scroll>
