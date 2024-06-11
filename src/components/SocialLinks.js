@@ -26,8 +26,8 @@ export default function SocialLinks() {
                 <div class="small text-black-50">
                   <a
                     target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/in/sfgeorge/"
+                    rel="noopener noreferrer"
+                    href="https://linkedin.com/in/christopher-chris-nowak-77557384/"
                   >
                     <i class="fas fa-hand-point-right fa-2x align-text-top mr-2"></i>
                     https://linkedin.com/in/christopher-chris-nowak-77557384/
@@ -42,7 +42,13 @@ export default function SocialLinks() {
           {config.socialLinks.map((social) => {
             const { icon, url } = social;
             return (
-              <a key={url} href={url} className={`mx-2`}>
+              <a
+                key={url}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`mx-2`}
+              >
                 <i className={`fab ${icon}`}></i>
               </a>
             );
