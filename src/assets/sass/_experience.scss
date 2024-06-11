@@ -22,13 +22,13 @@
       }
     }
   }
-  // .col-filled-with-image {
-  //   overflow: hidden;
+  .col-filled-with-image {
+    overflow: hidden;
 
-  //   .aspect-fit-cropped-img {
-  //     width: 100% !important;
-  //     height: 100% !important;
-  //     object-fit: cover;
-  //   }
-  // }
+    .aspect-fit-cropped-img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+    }
+  }
 }
