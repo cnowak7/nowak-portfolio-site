@@ -26,5 +26,5 @@ module.exports = {
     },
   ],
   email: 'cnowak8627@gmail.com',
-  location: 'Chicago, IL',
+  location: 'Chicago, IL, USA',
 };

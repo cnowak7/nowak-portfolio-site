@@ -17,14 +17,21 @@ export default function SocialLinks() {
             </div>
           </div>
 
-          <div className="col-md-4 mb-3 mb-md-0">
-            <div className="card py-4 h-100">
-              <div className="card-body text-center">
-                <i className="fas fa-envelope text-primary mb-2"></i>
-                <h4 className="text-uppercase m-0">Email</h4>
-                <hr className="my-4" />
-                <div className="small text-black-50">
-                  <a href={`mailto:${config.email}`}>{config.email}</a>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-linkedin mb-2"></i>
+                <h4 class="text-uppercase m-0">Contact / Resume</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/sfgeorge/"
+                  >
+                    <i class="fas fa-hand-point-right fa-2x align-text-top mr-2"></i>
+                    https://linkedin.com/in/christopher-chris-nowak-77557384/
+                  </a>
                 </div>
               </div>
             </div>
