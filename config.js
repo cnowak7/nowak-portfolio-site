@@ -25,6 +25,5 @@ module.exports = {
       url: 'https://linkedin.com/in/christopher-chris-nowak-77557384/',
     },
   ],
-  email: 'cnowak8627@gmail.com',
   location: 'Chicago, IL, USA',
 };
