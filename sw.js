@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0287fb89735c636d4149.js"
+    "url": "webpack-runtime-ebb769c8a3c898c3fc4c.js"
   },
   {
     "url": "framework-3e21018dbf8d99d91e2c.js"
   },
   {
-    "url": "app-08f87729f5a68deecc9e.js"
+    "url": "app-2afa08c93e4025f296e1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fbd7ee2302f1516e87a3601c1c3bdebf"
+    "revision": "2219a4c93768fcf8c220263e82e5ceb7"
   },
   {
     "url": "manifest.webmanifest",
@@ -151,7 +151,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/nowak-portfolio-site/app-08f87729f5a68deecc9e.js`))) {
+  if (!resources || !(await caches.match(`/nowak-portfolio-site/app-2afa08c93e4025f296e1.js`))) {
     return await fetch(event.request)
   }
 
