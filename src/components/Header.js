@@ -46,7 +46,7 @@ export default class Header extends Component {
             element="page-top"
           >
             <a className="navbar-brand" href="#page-top">
-              {config.siteTitle}
+              {config.navBarTitle}
             </a>
           </Scroll>
           <button
@@ -87,6 +87,18 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#experience">
                     Experience
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="featured-products"
+                  offset={-56}
+                >
+                  <a className="nav-link" href="#featured-products">
+                    Featured Products
                   </a>
                 </Scroll>
               </li>

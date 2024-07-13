@@ -21,7 +21,7 @@ export default function SocialLinks() {
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fab fa-linkedin mb-2"></i>
-                <h4 class="text-uppercase m-0">Contact / Resume</h4>
+                <h4 class="text-uppercase m-0">Contact / LinkedIn</h4>
                 <hr class="my-4" />
                 <div class="small text-black-50">
                   <a
@@ -30,7 +30,27 @@ export default function SocialLinks() {
                     href="https://linkedin.com/in/christopher-chris-nowak-77557384/"
                   >
                     <i class="fas fa-hand-point-right fa-2x align-text-top mr-2"></i>
-                    https://linkedin.com/in/christopher-chris-nowak-77557384/
+                    See my LinkedIn profile here!
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-file-alt mb-2"></i>
+                <h4 class="text-uppercase m-0">Resume</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://drive.google.com/file/d/192ng4h9Y1WDUAIVkj5YkLqzGvLYf4-cm/view?usp=sharing"
+                  >
+                    <i class="fas fa-hand-point-right fa-2x align-text-top mr-2"></i>
+                    See my resume here!
                   </a>
                 </div>
               </div>

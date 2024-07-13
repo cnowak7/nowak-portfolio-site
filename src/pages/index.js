@@ -12,6 +12,9 @@ import mobileDevImage from '../assets/images/mobile-dev-image-2.png';
 import cloudDevImage from '../assets/images/cloud-dev-image.png';
 import techMentorImage from '../assets/images/tech-mentor-image.png';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+import discoverMobileAppImage from '../assets/images/discover-mobile-app.png';
+import discoverCreditCardApplicationImage from '../assets/images/discover-credit-card-application.png';
+import discoverPrequalApplicationImage from '../assets/images/discover-prequal-application.png';
 
 const IndexPage = () => (
   <Layout>
@@ -67,9 +70,7 @@ const IndexPage = () => (
 
     <section id="experience" className="experience-section bg-light">
       <div className="container">
-        <h2 id="experience-section-title" className="mb-5">
-          Experience
-        </h2>
+        <h2 className="experience-section-title mb-5">Experience</h2>
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
@@ -110,7 +111,7 @@ const IndexPage = () => (
                     expertise lies in Native iOS and React Native development.
                   </p>
                   <p className="mb-2 text-white-50">
-                    For a Fortune 500 Financial Institution, I've led teams
+                    For my client, Discover Financial Services, I've led teams
                     responsible for developing complex features that adhere to
                     strict OWASP Mobile Application Security standards and ADA
                     compliance. These features have generated tens of millions
@@ -150,10 +151,9 @@ const IndexPage = () => (
                     microservices to cloud platforms like Pivotal Cloud Foundry.
                   </p>
                   <p className="mb-2 text-white-50">
-                    My work in optimizing backend services for a Fortune 500
-                    Financial Institution has resulted in substantial cost
-                    savings, demonstrating my ability to deliver efficient and
-                    scalable cloud-native solutions.
+                    My work in optimizing backend services for my client,
+                    Discover Financial Services, has resulted in substantial
+                    cost savings and efficient, scalable cloud-native solutions.
                   </p>
                   <p className="mb-2 text-white-50">
                     I'm the first engineer at my company to achieve
@@ -163,7 +163,8 @@ const IndexPage = () => (
                     other full-stack web development tools.
                   </p>
                   <p className="mb-2 text-white-50">
-                    This website was made with Node.js, React, and GraphQL.
+                    This website was made with Node.js, React, GraphQL, and
+                    AI-generated images.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -208,6 +209,172 @@ const IndexPage = () => (
                     played a pivotal role in successful candidate hires -
                     ensuring the acquisition of top talent for both my company
                     and clients.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-products" className="experience-section bg-light">
+      <div className="container">
+        <h2 className="experience-section-title mb-5">Featured Products</h2>
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6 col-filled-with-image">
+            <img
+              className="img-fluid aspect-fit-cropped-img"
+              src={discoverMobileAppImage}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Discover Mobile App</h4>
+                  <p className="mb-2 text-white-50">
+                    As a tech anchor, I've led several teams that maintained the
+                    Discover Mobile App for{' '}
+                    <a
+                      style={{ textDecoration: 'underline' }}
+                      href="https://apps.apple.com/us/app/discover-mobile/id338010821"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      iOS
+                    </a>{' '}
+                    and{' '}
+                    <a
+                      style={{ textDecoration: 'underline' }}
+                      href="https://play.google.com/store/apps/details?id=com.discoverfinancial.mobile&hl=en_US&pli=1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Android
+                    </a>
+                    . My teams owned several features including Credit Card
+                    Activation, Card & Bank Registration, Onboarding Wizard,
+                    Account Home Screen, Balance Transfer, Apple Wallet, and
+                    many more.
+                  </p>
+                  <p className="mb-2 text-white-50">Press Releases:</p>
+                  <p className="mb-2 text-white-50">
+                    <a
+                      style={{ textDecoration: 'underline' }}
+                      href="https://investorrelations.discover.com/newsroom/press-releases/press-release-details/2022/Discovers-Credit-Card-Mobile-App-and-Website-Both-Rank-Highest-in-Customer-Satisfaction-by-J.D.-Power/default.aspx"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      June 2022: Discover's Credit Card Mobile App and Website
+                      Both Rank Highest in Customer Satisfaction by J.D. Power
+                    </a>
+                  </p>
+                  <p className="mb-2 text-white-50">
+                    <a
+                      style={{
+                        textDecoration: 'underline',
+                        textDecorationSkipInk: 'auto',
+                      }}
+                      href="https://www.jdpower.com/business/press-releases/2024-us-banking-and-credit-card-mobile-app-satisfaction-studies"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      May 2024: Discover Ranks third in credit card mobile app
+                      satisfaction and second in online credit card satisfaction
+                    </a>
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6 col-filled-with-image">
+            <img
+              className="img-fluid aspect-fit-cropped-img"
+              src={discoverCreditCardApplicationImage}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">
+                    Discover Credit Card Application
+                  </h4>
+                  <p className="mb-2 text-white-50">
+                    As a tech anchor, I've led the modernization and
+                    implementation of Discover's redesigned Credit Card
+                    Application. A user sees this when clicking the "Apply Now"
+                    button for any credit card type on this webpage:{' '}
+                    <a
+                      style={{
+                        textDecoration: 'underline',
+                        textDecorationSkipInk: 'auto',
+                      }}
+                      href="https://www.discover.com/credit-cards/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Apply for a Credit Card Online from Discover
+                    </a>
+                  </p>
+                  <p className="mb-2 text-white-50">
+                    I've also led the modernization of several internal legacy
+                    systems that orchestrate the Credit Card Application
+                    process.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6 col-filled-with-image">
+            <img
+              className="img-fluid aspect-fit-cropped-img"
+              src={discoverPrequalApplicationImage}
+              alt=""
+            />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">
+                    Discover Credit Card Pre-Approval Form
+                  </h4>
+                  <p className="mb-2 text-white-50">
+                    As a tech anchor, I've led the modernization and
+                    implementation of Discover's redesigned{' '}
+                    <a
+                      style={{
+                        textDecoration: 'underline',
+                        textDecorationSkipInk: 'auto',
+                      }}
+                      href="https://www.discovercard.com/application/preapproval/initial"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Credit Card Pre-Approval Form
+                    </a>
+                    . Potential credit card customers use this form to check if
+                    they pre-qualify for any credit cards with no impact to
+                    their credit score.
+                  </p>
+                  <p className="mb-2 text-white-50">
+                    I've also led the modernization of several internal legacy
+                    systems that orchestrate the Credit Card Pre-Approval
+                    process.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>

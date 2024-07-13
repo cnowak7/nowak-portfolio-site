@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'Chris Nowak : Portfolio', // <title>
+  navBarTitle: 'Chris Nowak',
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
