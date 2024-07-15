@@ -47,7 +47,7 @@ export default function SocialLinks() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://drive.google.com/file/d/192ng4h9Y1WDUAIVkj5YkLqzGvLYf4-cm/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1SzvCsIYe3SfccXmaxIzYOhi0mOmmNd0R/view?usp=sharing"
                   >
                     <i class="fas fa-hand-point-right fa-2x align-text-top mr-2"></i>
                     See my resume here!
