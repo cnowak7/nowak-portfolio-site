@@ -49,7 +49,7 @@ const IndexPage = () => (
             <p className="text-white-50 about-me-first-paragraph">
               I am a dedicated Senior Software Engineer who believes that the
               best solutions are created when innovation, collaboration, and a
-              relentless pursuit of quality are at the forefront. With over 10
+              relentless pursuit of quality are at the forefront. With over 11
               years of diverse and extensive experience, I've consistently
               delivered top-tier software solutions focusing on extensible
               architectures, user-centric design, and cost optimization.
@@ -329,7 +329,8 @@ const IndexPage = () => (
                   <p className="mb-2 text-white-50">
                     I've also led the modernization of several internal legacy
                     systems that orchestrate the Credit Card Application
-                    process.
+                    process, as well as upgrading many of these services to
+                    Spring Boot 2.5.x and Java 11.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -374,7 +375,8 @@ const IndexPage = () => (
                   <p className="mb-2 text-white-50">
                     I've also led the modernization of several internal legacy
                     systems that orchestrate the Credit Card Pre-Approval
-                    process.
+                    process, as well as upgrading many of these services to
+                    Spring Boot 2.5.x and Java 11.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
